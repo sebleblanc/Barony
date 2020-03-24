@@ -2329,7 +2329,7 @@ int deinitApp()
 
 	// free currently loaded language if any
 	freeLanguages();
-	printlog("notice: archiving log file as %s...\n", logarchiveFilePath.c_str());
+
 	printlog("success\n");
 	fclose(logfile);
 

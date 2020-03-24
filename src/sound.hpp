@@ -17,6 +17,7 @@
 #include "fmod.h"
 #endif
 #ifdef USE_OPENAL
+#include "game.hpp"
 #ifdef APPLE
 #include <OpenAL/al.h>
 #include <OpenAL/alc.h>
